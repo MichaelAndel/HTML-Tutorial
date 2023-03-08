@@ -94,6 +94,31 @@ li:nth-child(even) {
   color: red;
 }
 
+/* Misconception: This wont work*/
 article p:first-child {
   color: red;
+}
+
+/*Styling links*/
+/* LVHA - These styles should come always in this order */
+a:link {
+  /*this styles only <a elements with href attribute*/
+  color: #1098ad;
+  text-decoration: none;
+}
+
+/* you can use this pseudoclass to style already visited link */
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
