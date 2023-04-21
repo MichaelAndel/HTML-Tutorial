@@ -9,6 +9,17 @@ body {
   border-top: 10px solid black;
 }
 
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+}
+
 h1,
 h2,
 h3 {
@@ -67,16 +78,6 @@ li {
 
 .author-list {
   list-style: none;
-}
-
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid blue;
-  border-bottom: 5px solid blue;
 }
 
 /*.first-li {
