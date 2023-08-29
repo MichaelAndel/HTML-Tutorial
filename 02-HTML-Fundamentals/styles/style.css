@@ -11,6 +11,12 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+/*adding a conainer element and specify its width and left and right margins on auto, centers our page*/
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /*padding: 20px;
