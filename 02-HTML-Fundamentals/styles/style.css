@@ -10,12 +10,17 @@ body {
   font-family: sans-serif;
 
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 /*adding a conainer element and specify its width and left and right margins on auto, centers our page*/
 .container {
   width: 800px;
+  /*margin-left: auto;
+  margin-right: auto;
+  */
   margin: 0 auto;
+  /* position: relative; */
 }
 
 .main-header {
@@ -41,6 +46,11 @@ aside {
 
 article {
   margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+  /* position: relative; */
 }
 
 /* Smaller elements*/
@@ -204,6 +214,21 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0px;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+
+  /*
+  top: 50px;
+  left: 50px;
+  */
+
+  bottom: 50px;
+  right: 50px;
 }
 
 /*nav a:link,
