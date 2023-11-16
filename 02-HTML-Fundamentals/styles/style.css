@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* Page Sections*/
 body {
   color: #444;
   font-family: sans-serif;
@@ -24,10 +25,9 @@ body {
   padding-right: 40px;*/
   padding: 20px 40px;
   margin-bottom: 50px;
-  height: 80px;
+  /*height: 80px;*/
 }
-
-.post-header {
+s .post-header {
   margin-bottom: 40px;
 }
 
@@ -43,6 +43,7 @@ article {
   margin-bottom: 60px;
 }
 
+/* Smaller elements*/
 h1,
 h2,
 h3 {
@@ -185,6 +186,24 @@ a:active {
 
 footer p {
   color: green;
+}
+
+nav a:link {
+  /*background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+
+  display: block;
+  */
+
+  margin-right: 30px;
+  margin-top: 10px;
+
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
 }
 
 /*nav a:link,
