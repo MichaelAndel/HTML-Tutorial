@@ -41,3 +41,11 @@
   - these `top, bottom, left or right` properties are definition of where element is positioned in relation to the viewport or !FIRST! relatively positioned(position: relative;) parent element.
 
 - (position: absolute;)
+
+## Pseudo-elements
+
+- Pseudo elements are the elemnts that dont exists exists in HTMl but that we can still style
+- use `::` to use Pseudo elements
+- youcan also use "adjecent sibling element" selector by stating element + element and then pseudo element selector like `h3 + a::first-line {}`
+- after will create pseudo element that will automatically selects the very first child
+- any pseudo element is by default a inline element
