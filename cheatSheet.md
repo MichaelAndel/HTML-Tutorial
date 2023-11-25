@@ -1,3 +1,13 @@
+# CHEATSHEET
+
+## Tips
+
+- When Horizontal padding is double the vertical, it usually looks good.
+
+## Tools
+
+Diffchecker.com
+
 ## BOX MODEL
 
 ### Block level boxes/elements occupy all the space that they can, from left to right, and they create line breaks after them.(display: block)
@@ -49,3 +59,15 @@
 - youcan also use "adjecent sibling element" selector by stating element + element and then pseudo element selector like `h3 + a::first-line {}`
 - after will create pseudo element that will automatically selects the very first child
 - any pseudo element is by default a inline element
+
+## CSS Layouts
+
+- what is the Layout?
+  - Layout is the way text, images and other content is placed and arranged o a webpage
+  - Layout gives the page visual structure, into which we place out content
+  - **Building a layout**: arranging page elements into a visual structure, instead of simply having them placed one after another (normal flow)
+
+### Page layout vs Component layout
+
+- In a page layout, elements are laid out around the webpage
+- in component layout, elements have their own layout inside the component, since the components are often composed out of multiple elements
