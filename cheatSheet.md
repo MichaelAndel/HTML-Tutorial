@@ -71,3 +71,18 @@ Diffchecker.com
 
 - In a page layout, elements are laid out around the webpage
 - in component layout, elements have their own layout inside the component, since the components are often composed out of multiple elements
+
+### Float layouts
+
+- The old way of building layouts of all sizes, using the `float` CSS property
+
+### Flexbox layouts
+
+- modern way of building one dimensional layouts
+- it is basically row withou using floats
+- perfect for component layouts
+
+### CSS Grid
+
+- modern way for laying out elements in 2 dimensional grid
+- Perfect for page layouts and complex components
